@@ -1,6 +1,6 @@
 body{
 
-    background-color: yellow;
+    background-color: rgb(92, 3, 3);
     color: black;
   }
   .grid {
@@ -9,9 +9,9 @@ body{
   }
   .grid > div {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 5 px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   height: 500px;
   width: 300px;
@@ -19,7 +19,7 @@ body{
   margin-right: 50px;
   }
   div:hover{
-  background-color: rgb(206, 206, 90);
+  background-color: rgb(156, 18, 18);
   }
   div:nth-child( -n + 3) {
   margin-top: 0px;
@@ -39,4 +39,11 @@ body{
   
   height: 300px;
   width: 200px;
+  }
+  img{
+    border: 2px solid rgb(27, 77, 27);
+    border-width: 50px;
+
+
+
   }
