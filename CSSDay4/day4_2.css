@@ -1,0 +1,7 @@
+#container {
+    overflow: scroll;
+    background: rgb(1, 80, 80);
+    color: black;
+    width: 70%;
+    height: 300px;
+}
