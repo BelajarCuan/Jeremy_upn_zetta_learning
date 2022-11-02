@@ -1,27 +1,15 @@
-# AngularLearning
+Task_Day_1 1. Angular adalah framework javascript yang memungkinkan untuk membuat Single-Page-Applications (SPAs) reaktif. angular memungkinkan sebuah single-page dapat seolah-olah berpindah-pindah ke page lainnya, angular hanya menggunakan satu file HTML dan beberapa Typescript. Angular memuat file-file tersebut dibackgroud, jadi user tidak akan kehilangan pengalamannya dalam penggunaan web-application reaktif.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+Module adalah sebuah container untuk gabungan dari component yang berhubungan.
 
-## Development server
+Component adalah blok penyusun UI paling dasar dari aplikasi angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Hubungan antara component dan module satu sama lain dimana di dalam module, diisi oleh kelompok component yang saling berhubungan. sementara component membutuhkan module untuk mengidentifikasi component lain yang memiliki hubungan yang sama.
 
-## Code scaffolding
+Quiz
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Component dari tampilan tersebut akan dibagi menjadi file HTML, file typescript, dan file SCSS. pada file HTML adalah outputnya, dan file typescript dan SCSS sebagai pendukung yang merupakan isi dari file HTMLnya.
 
-## Build
+Component akan dikelompokkan sesuai dengan modulnya, seperti untuk module 'beranda' akan menampilkan component sesuai dengan yang diinginkan untuk berada di module 'beranda', component yang berada di module 'musik' adalah component yang berhubungan dengan 'musik', dan begitu seterusnya.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Bisa, karena di angular project tiap module akan diisi dengan satu file HTML jadi bagaimana bentuk dari hasil akhirnya sudah dapat diperkirakan.
